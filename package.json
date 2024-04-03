@@ -1,0 +1,19 @@
+{
+  "name": "waline-portable-service",
+  "version": "1.0.0",
+  "description": "Waline便携式服务端",
+  "main": "index.js",
+  "scripts": {
+    "server:start": "pm2 start ecosystem.config.js",
+    "server:restart": "pm2 restart ecosystem.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "pm2": "^5.3.1"
+  },
+  "dependencies": {
+    "@waline/vercel": "^1.31.13"
+  }
+}
